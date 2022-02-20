@@ -491,6 +491,7 @@ The supported icon libs are:
 *  fontawesome3
 *  fontawesome4
 *  fontawesome5
+*  fontawesome6
 *  openiconic
 *  spectre
 

@@ -22,7 +22,8 @@ const mapping = {
 }
 
 export class fontawesome5Iconlib extends AbstractIconLib {
-  constructor () {
+  constructor (styles) {
+    if (styles) iconPrefix = `${styles} fa-`;
     super(iconPrefix, mapping)
   }
 }

@@ -3,6 +3,7 @@ import { bootstrap3Iconlib } from './bootstrap3.js'
 import { fontawesome3Iconlib } from './fontawesome3.js'
 import { fontawesome4Iconlib } from './fontawesome4.js'
 import { fontawesome5Iconlib } from './fontawesome5.js'
+import { fontawesome6Iconlib } from './fontawesome6.js'
 // import  { foundation2Iconlib } from  './foundation2.js'
 // import  { foundation3Iconlib } from  './foundation3.js'
 import { jqueryuiIconlib } from './jqueryui.js'
@@ -16,6 +17,7 @@ export const iconlibs = {
   fontawesome3: fontawesome3Iconlib,
   fontawesome4: fontawesome4Iconlib,
   fontawesome5: fontawesome5Iconlib,
+  fontawesome6: fontawesome6Iconlib,
   // foundation2: foundation2Iconlib,
   // foundation3: foundation3Iconlib,
   jqueryui: jqueryuiIconlib,

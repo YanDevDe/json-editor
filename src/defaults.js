@@ -12,6 +12,7 @@ const callbacks = {}
 const themes = {}
 const templates = {}
 const iconlibs = {}
+const iconstyles = null
 const editors = {}
 const languages = {}
 // eslint-disable-next-line camelcase
@@ -388,6 +389,7 @@ export const defaults = {
   callbacks,
   templates,
   iconlibs,
+  iconstyles,
   editors,
   languages,
   resolvers,

@@ -22,7 +22,7 @@ const mapping = {
 }
 
 export class bootstrap2Iconlib extends AbstractIconLib {
-  constructor () {
+  constructor (styles) {
     super(iconPrefix, mapping)
   }
 }

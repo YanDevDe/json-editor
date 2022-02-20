@@ -53,7 +53,7 @@ export class JSONEditor {
     /* Init icon class */
     const iconClass = JSONEditor.defaults.iconlibs[this.options.iconlib || JSONEditor.defaults.iconlib]
     // eslint-disable-next-line new-cap
-    if (iconClass) this.iconlib = new iconClass()
+    if (iconClass) this.iconlib = new iconClass(JSONEditor.defaults.iconstyles)
 
     this.root_container = this.theme.getContainer()
     this.element.appendChild(this.root_container)

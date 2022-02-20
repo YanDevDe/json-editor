@@ -1,28 +1,29 @@
 import { AbstractIconLib } from '../iconlib.js'
 
-const iconPrefix = 'fa fa-'
+let iconPrefix = 'fas fa-'
 const mapping = {
-  collapse: 'caret-square-o-down',
-  expand: 'caret-square-o-right',
-  delete: 'times',
-  edit: 'pencil',
+  collapse: 'caret-down',
+  expand: 'caret-right',
+  delete: 'trash',
+  edit: 'pen',
   add: 'plus',
   subtract: 'minus',
   cancel: 'ban',
-  save: 'save',
+  save: 'floppy-disk',
   moveup: 'arrow-up',
   moveright: 'arrow-right',
   movedown: 'arrow-down',
   moveleft: 'arrow-left',
-  copy: 'files-o',
-  clear: 'times-circle-o',
-  time: 'clock-o',
+  copy: 'copy',
+  clear: 'circle-xmark',
+  time: 'clock',
   calendar: 'calendar',
   edit_properties: 'list'
 }
 
-export class fontawesome4Iconlib extends AbstractIconLib {
+export class fontawesome6Iconlib extends AbstractIconLib {
   constructor (styles) {
+    if (styles) iconPrefix = `${styles} fa-`;
     super(iconPrefix, mapping)
   }
 }
